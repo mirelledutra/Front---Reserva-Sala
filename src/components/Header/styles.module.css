@@ -1,0 +1,12 @@
+.h1 {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100%;
+    color: white;
+    background-color: rgb(79, 79, 190);
+    padding: 20px;
+
+  
+  
+}

@@ -1,0 +1,313 @@
+{
+  "reservas": [
+    {
+      "id": 1,
+      "descricao": "Reunião de equipe",
+      "solicitante": "João Silva",
+      "salaId": 1,
+      "dataInicio": "2023-11-10T10:00:00Z",
+      "dataFim": "2023-11-10T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "descricao": "Apresentação de Projeto",
+      "solicitante": "Maria Oliveira",
+      "salaId": 2,
+      "dataInicio": "2023-11-11T14:00:00Z",
+      "dataFim": "2023-11-11T16:00:00Z"
+    },
+    {
+      "id": 3,
+      "descricao": "Treinamento de Vendas",
+      "solicitante": "Carlos Santos",
+      "salaId": 3,
+      "dataInicio": "2023-11-12T09:00:00Z",
+      "dataFim": "2023-11-12T11:00:00Z"
+    },
+    {
+      "id": 4,
+      "descricao": "Entrevista de Emprego",
+      "solicitante": "Ana Lima",
+      "salaId": 4,
+      "dataInicio": "2023-11-13T15:00:00Z",
+      "dataFim": "2023-11-13T16:30:00Z"
+    },
+    {
+      "id": 5,
+      "descricao": "Workshop de Design",
+      "solicitante": "Pedro Almeida",
+      "salaId": 5,
+      "dataInicio": "2023-11-14T13:30:00Z",
+      "dataFim": "2023-11-14T15:30:00Z"
+    },
+    {
+      "id": 6,
+      "descricao": "Apresentação de Produto",
+      "solicitante": "Lúcia Pereira",
+      "salaId": 6,
+      "dataInicio": "2023-11-15T11:00:00Z",
+      "dataFim": "2023-11-15T13:00:00Z"
+    },
+    {
+      "id": 7,
+      "descricao": "Sessão de Treinamento",
+      "solicitante": "Ricardo Oliveira",
+      "salaId": 7,
+      "dataInicio": "2023-11-16T14:00:00Z",
+      "dataFim": "2023-11-16T16:00:00Z"
+    },
+    {
+      "id": 8,
+      "descricao": "Reunião de Planejamento",
+      "solicitante": "Marta Costa",
+      "salaId": 8,
+      "dataInicio": "2023-11-17T09:30:00Z",
+      "dataFim": "2023-11-17T11:30:00Z"
+    },
+    {
+      "id": 9,
+      "descricao": "Entrevista de Cliente",
+      "solicitante": "Fernanda Silva",
+      "salaId": 9,
+      "dataInicio": "2023-11-18T10:00:00Z",
+      "dataFim": "2023-11-18T12:00:00Z"
+    },
+    {
+      "id": 10,
+      "descricao": "Apresentação de Marketing",
+      "solicitante": "Roberto Santos",
+      "salaId": 10,
+      "dataInicio": "2023-11-19T15:30:00Z",
+      "dataFim": "2023-11-19T17:00:00Z"
+    },
+    {
+      "descricao": "teste",
+      "solicitante": "Mirelle",
+      "salaId": "1",
+      "dataInicio": "",
+      "dataFim": "",
+      "aceitaTermos": false,
+      "": true,
+      "id": 11
+    },
+    {
+      "descricao": "teste",
+      "solicitante": "Mirelle",
+      "salaId": "1",
+      "dataInicio": "",
+      "dataFim": "",
+      "aceitaTermos": false,
+      "": true,
+      "id": 12
+    },
+    {
+      "descricao": "teste",
+      "solicitante": "Mirelle",
+      "salaId": "1",
+      "dataInicio": "",
+      "dataFim": "",
+      "aceitaTermos": false,
+      "": true,
+      "id": 13
+    },
+    {
+      "descricao": "teste",
+      "solicitante": "Mirelle",
+      "salaId": "1",
+      "dataInicio": "",
+      "dataFim": "",
+      "aceitaTermos": false,
+      "": true,
+      "id": 14
+    },
+    {
+      "descricao": "fjalfaj",
+      "solicitante": "fafa",
+      "salaId": "2",
+      "dataInicio": "",
+      "dataFim": "",
+      "aceitaTermos": false,
+      "": true,
+      "id": 15
+    },
+    {
+      "descricao": "fjalfaj",
+      "solicitante": "fafa",
+      "salaId": "2",
+      "dataInicio": "",
+      "dataFim": "",
+      "aceitaTermos": false,
+      "": true,
+      "id": 16
+    },
+    {
+      "descricao": "fjalfaj",
+      "solicitante": "fafa",
+      "salaId": "2",
+      "dataInicio": "",
+      "dataFim": "",
+      "aceitaTermos": false,
+      "": true,
+      "id": 17
+    },
+    {
+      "descricao": "fjalfaj",
+      "solicitante": "fafa",
+      "salaId": "2",
+      "dataInicio": "",
+      "dataFim": "",
+      "aceitaTermos": false,
+      "": true,
+      "id": 18
+    },
+    {
+      "descricao": "",
+      "solicitante": "",
+      "salaId": "",
+      "dataInicio": "",
+      "dataFim": "",
+      "aceitaTermos": false,
+      "id": 19
+    },
+    {
+      "descricao": "teste",
+      "solicitante": "teste",
+      "salaId": "1",
+      "dataInicio": "",
+      "dataFim": "",
+      "aceitaTermos": false,
+      "": true,
+      "id": 20
+    },
+    {
+      "descricao": "teste",
+      "solicitante": "teste",
+      "salaId": "1",
+      "dataInicio": "",
+      "dataFim": "",
+      "aceitaTermos": false,
+      "": true,
+      "id": 21
+    },
+    {
+      "descricao": "teste",
+      "solicitante": "teste",
+      "salaId": "1",
+      "dataInicio": "",
+      "dataFim": "",
+      "aceitaTermos": false,
+      "": true,
+      "id": 22
+    },
+    {
+      "descricao": "teste",
+      "solicitante": "teste",
+      "salaId": "1",
+      "dataInicio": "",
+      "dataFim": "",
+      "aceitaTermos": false,
+      "": true,
+      "id": 23
+    },
+    {
+      "descricao": "teste",
+      "solicitante": "teste",
+      "salaId": "1",
+      "dataInicio": "",
+      "dataFim": "",
+      "aceitaTermos": false,
+      "": true,
+      "id": 24
+    },
+    {
+      "descricao": "teste",
+      "solicitante": "teste",
+      "salaId": "1",
+      "dataInicio": "",
+      "dataFim": "",
+      "aceitaTermos": false,
+      "": true,
+      "id": 25
+    },
+    {
+      "descricao": "fdfd",
+      "solicitante": "fd",
+      "salaId": "",
+      "dataInicio": "",
+      "dataFim": "",
+      "aceitaTermos": false,
+      "id": 26
+    },
+    {
+      "descricao": "",
+      "solicitante": "",
+      "salaId": "",
+      "dataInicio": "",
+      "dataFim": "",
+      "aceitaTermos": false,
+      "id": 27
+    }
+  ],
+  "salas": [
+    {
+      "id": 1,
+      "nome": "Sala 101",
+      "descricao": "Descrição da Sala 101",
+      "capacidade": 20
+    },
+    {
+      "id": 2,
+      "nome": "Sala 102",
+      "descricao": "Descrição da Sala 102",
+      "capacidade": 25
+    },
+    {
+      "id": 3,
+      "nome": "Sala 103",
+      "descricao": "Descrição da Sala 103",
+      "capacidade": 15
+    },
+    {
+      "id": 4,
+      "nome": "Sala 104",
+      "descricao": "Descrição da Sala 104",
+      "capacidade": 18
+    },
+    {
+      "id": 5,
+      "nome": "Sala 105",
+      "descricao": "Descrição da Sala 105",
+      "capacidade": 22
+    },
+    {
+      "id": 6,
+      "nome": "Sala 106",
+      "descricao": "Descrição da Sala 106",
+      "capacidade": 16
+    },
+    {
+      "id": 7,
+      "nome": "Sala 107",
+      "descricao": "Descrição da Sala 107",
+      "capacidade": 14
+    },
+    {
+      "id": 8,
+      "nome": "Sala 108",
+      "descricao": "Descrição da Sala 108",
+      "capacidade": 19
+    },
+    {
+      "id": 9,
+      "nome": "Sala 109",
+      "descricao": "Descrição da Sala 109",
+      "capacidade": 21
+    },
+    {
+      "id": 10,
+      "nome": "Sala 110",
+      "descricao": "Descrição da Sala 110",
+      "capacidade": 17
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+
+.barra {
+  position: fixed;
+  top: 80px;
+  left: 40%;
+  background-color: #474b4b;
+  width: 2px;
+  height: 1500px;
+  max-height: 1500px;
+
+}
