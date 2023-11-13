@@ -73,13 +73,29 @@ export default function Home() {
     ) {
       setMensagemErro({
         type: "error",
-        text: "É obrigatório preencher todos os campos!"
+        text: "É obrigatório preencher todos os campos e aceitar os termos!"
       });
       setTimeout(() => {
         setMensagemErro(null);
       }, 2000);
       return;
     }
+
+    const dataInicio = new Date(formularioValues.dataInicio);
+    const dataFim = new Date(formularioValues.dataFim);
+
+    if (dataFim <= dataInicio) {
+      setMensagemErro({
+        type: "error",
+        text: "A data final deve ser maior que a data inicial!",
+      });
+      setTimeout(() => {
+        setMensagemErro(null);
+      }, 2000);
+      return;
+    }
+
+
     try {
       await axios.post("http://localhost:3001/reservas", formularioValues);
       buscarReservas();
