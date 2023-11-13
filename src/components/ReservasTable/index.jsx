@@ -1,25 +1,44 @@
 import React from 'react';
+import Table from "../../components/Table";
+import Thead from "../../components/Thead";
+import Tr from '../../components/Tr';
+import Th from '../../components/Th';
+import Tbody from '../../components/Tbody';
+import Td from '../../components/Td';
+import format from 'date-fns/format';
+
 
 const ReservasTable = ({ reservas }) => {
+  const formatarData = (data) => {
+    if (!data) return '';
+    return format(new Date(data), 'dd/MM/yyyy HH:mm:ss');
+  };
+  console.log('Dados das Reservas:', reservas);
   return (
-    <table>
-      <thead>
-        <tr>
-          <th>Descrição</th>
-          <th>Solicitante</th>
+    <Table>
+      <Thead>
+        <Tr>
+          <Th>Descrição</Th>
+          <Th>Solicitante</Th>
+          <Th>Sala</Th>
+          <Th>Início</Th>
+          <Th>Fim</Th>
    
-        </tr>
-      </thead>
-      <tbody>
-        {reservas.map((reserva) => (
-          <tr key={reserva.id}>
-            <td>{reserva.descricao}</td>
-            <td>{reserva.solicitante}</td>
-    
-          </tr>
+        </Tr>
+      </Thead>
+      <Tbody>
+        {reservas?.map((reserva, index) => (
+        <Tr key={index}>
+          <Td>{reserva.descricao}</Td>
+          <Td>{reserva.solicitante}</Td>
+          <Td>{reserva.salaId}</Td>
+          <Td>{formatarData(reserva.dataInicio)}</Td>
+          <Td>{formatarData(reserva.dataFim)}</Td>
+        </Tr>
         ))}
-      </tbody>
-    </table>
+      </Tbody>
+      
+  </Table>
   );
 };
 

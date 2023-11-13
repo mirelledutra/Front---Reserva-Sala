@@ -1,11 +1,11 @@
 
 import styles from "./styles.module.css"
-export default function Header({ children }) {
+export default function Header() {
 
     return (
         <>
-            <div className={styles.h1}>
-                <h1>{children}</h1>
+            <div className={styles.container}>
+                <h1>Reservas de Sala</h1>
             </div>
         </>
     )
